@@ -152,6 +152,8 @@ In summary, the code effectively addresses the challenge's requirements, integra
 8. **Integration**: Easier to integrate with other systems and services.
 9. **Cost-Effective**: Potentially more cost-effective in terms of management and scaling.
 
+![Test UI](https://github.com/HopeKenga/Compare_Product_Plugin/blob/main/Screenshot%202024-01-23%20at%2014.50.11.png)
+
 ## Conclusion
 The Compado Product Display Plugin is a valuable tool for WordPress users to integrate with the Compado API. However, to address its limitations and enhance its capabilities, a transition to a more robust framework like Laravel or Django REST Framework, along with the implementation of a centralized database, is recommended. This shift will not only improve scalability and performance but also provide a more secure and maintainable solution.
 
