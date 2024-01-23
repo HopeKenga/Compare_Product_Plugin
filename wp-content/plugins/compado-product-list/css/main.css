@@ -1,0 +1,170 @@
+/* Style the wrapper for all products */
+.compado-products-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Style each individual product */
+.compado-product {
+  width: 730px; /* Adjust the width based on your layout */
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 4px 4px 14px rgba(70, 69, 70, 0.25);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.compado-product-content {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 170px 4fr 1fr;
+  border-bottom: 1px solid black;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.content-wrapper {
+  padding: 16px;
+  height: auto;
+}
+
+.compado-product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.compado-product h2 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.compado-product div {
+  font-weight: bold;
+}
+
+.compado-bottom-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.compado-icons-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.compado-bottom-row-icon-text {
+  font-size: 10px;
+}
+
+.compado-product p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.compado-product a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  width: 40%;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.compado-product a:hover {
+  background-color: #ff6600;
+  opacity: 0.5;
+}
+
+.default-flag {
+  border-top-left-radius: 10px;
+  color: white;
+  background: #ff6600;
+  transform: translateY(-50%);
+  max-width: fit-content;
+  padding: 5px;
+}
+
+.compado-read-more-btn {
+  width: 100%;
+  background-color: #efefef;
+  color: #8c8c8c;
+  padding: 10px 15px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  /*margin-bottom: 10px;*/
+}
+
+.compado-read-more-btn:hover {
+  background-color: #ff6600;
+  color: white;
+}
+
+.compado-introduction {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.compado-introduction {
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.compado-introduction.open {
+  display: block;
+  max-height: 1000px; /* Adjust as needed */
+}
+
+.compado-rating {
+  display: flex; /* Use flexbox to align items in a row */
+  align-items: center; /* Center items vertically */
+  gap: 4px; /* Optional: Adjust the space between stars */
+}
+
+.compado-rating img {
+  display: inline-block; /* Display images inline */
+}
+
+li {
+  list-style: none;
+  list-style-type: none;
+}
+
+.discount-button {
+  list-style-type: none;
+  background: #FF6600;
+  padding: 5px;
+  font-size: 10px;
+
+}
+
+.discount-button {
+  color: white;
+}
