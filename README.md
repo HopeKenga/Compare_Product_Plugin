@@ -1,7 +1,7 @@
 # Compado Product Display Plugin README
 
 ## Introduction
-The Compado Product Display Plugin is a custom WordPress plugin designed to integrate with the Compado API, showcasing a range of products on WordPress sites. It uses WordPress-specific functionalities such as shortcodes and AJAX to provide a dynamic and user-friendly experience.
+The Compado Product Display Plugin is a custom WordPress plugin designed to integrate with the Compado API, showcasing a range of products on WordPress sites. It uses WordPress-specific functionalities such as the shortcode ```**[compado_products]**```  and AJAX to provide a dynamic and user-friendly experience.
 
 ## Advantages of the Current Implementation
 1. **WordPress Integration**: Fully tailored to work within the WordPress environment, ensuring seamless compatibility.
