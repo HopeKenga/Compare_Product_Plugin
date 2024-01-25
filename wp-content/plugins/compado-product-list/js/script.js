@@ -20,7 +20,6 @@ jQuery(document).ready(function($) {
     }
 
     // Example trigger for loading products
-    // You can customize this part as per your need
     $('#load-products-btn').on('click', function() {
         var category = $(this).data('category');
         loadProducts(category);
