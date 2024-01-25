@@ -8,7 +8,7 @@
 
 /* Style each individual product */
 .compado-product {
-  width: 730px; /* Adjust the width based on your layout */
+  width: 730px; 
   border-radius: 5px;
   background: #fff;
   box-shadow: 4px 4px 14px rgba(70, 69, 70, 0.25);
@@ -139,13 +139,13 @@
 
 .compado-introduction.open {
   display: block;
-  max-height: 1000px; /* Adjust as needed */
+  max-height: 1000px; 
 }
 
 .compado-rating {
   display: flex; /* Use flexbox to align items in a row */
   align-items: center; /* Center items vertically */
-  gap: 4px; /* Optional: Adjust the space between stars */
+  gap: 4px; 
 }
 
 .compado-rating img {
